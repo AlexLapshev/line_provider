@@ -1,0 +1,9 @@
+[flake8]
+max-line-length = 120
+exclude =
+    alembic
+    __pycache__
+    venv
+    .env
+    tests
+    .pytest_cache

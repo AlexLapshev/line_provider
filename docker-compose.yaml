@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  line_provider:
+    build: .
+    container_name: line_provider
+    ports:
+      - "8000:8000"
