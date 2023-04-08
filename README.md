@@ -1,4 +1,4 @@
-**You should first run the bet maker microservice and it's docker compose!!**
+**You should first run the bet maker microservice!!**
 ## Installation
 
 Create virtual environment
