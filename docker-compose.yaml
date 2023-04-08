@@ -6,3 +6,12 @@ services:
     container_name: line_provider
     ports:
       - "8000:8000"
+    environment:
+      - RMQ_HOST=bet_maker_q
+      - POSTGRES_HOST=bet_maker_db
+    networks:
+      - bet_maker_line_provider_net
+
+networks:
+  bet_maker_line_provider_net:
+    external: true

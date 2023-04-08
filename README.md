@@ -1,6 +1,30 @@
-### Шаблон сервиса line-provider
+## Installation
+
+Create virtual environment
+
+`python3.10 -m virtualenv venv`
+
+Activate it
+
+`source venv/bin/activate`
+
+Install required packages
+
+`pip install -r requirements.txt`
+
+
+To run the app 
+
+`python app.py`
+
+## To run the app from docker compose
+
+Run docker compose
 
 ```
-docker build . -t line-provider
-docker run -p 8080:8080 line-provider
+docker-compose up
 ```
+
+## Tests
+
+`pytest tests`
