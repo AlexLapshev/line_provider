@@ -1,3 +1,4 @@
+**You should first run the bet maker microservice and it's docker compose!!**
 ## Installation
 
 Create virtual environment
@@ -11,6 +12,7 @@ Activate it
 Install required packages
 
 `pip install -r requirements.txt`
+
 
 
 To run the app 
